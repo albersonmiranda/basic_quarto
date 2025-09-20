@@ -1,0 +1,23 @@
+---
+author: Alberson Miranda
+date: "`r Sys.Date()`"
+bibliography: bib.bib
+biblio-title: REFERÊNCIAS
+link-citations: true
+format:
+  pdf:
+    documentclass: abntex2
+    classoption: [12pt, oneside, a4paper, chapter=TITLE, section=TITLE, brazil]
+    latex-max-runs: 4
+    cite-method: biblatex
+    biblatexoptions:
+      - backend=biber
+      - style=abnt
+      - giveninits
+      - backref=true
+      - backrefstyle=three
+---
+
+# INTRODUÇÃO
+
+Exemplo de citação [@athanasopoulos_forecast_2023].
