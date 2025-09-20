@@ -1,6 +1,4 @@
 ---
-author: Alberson Miranda
-date: "`r Sys.Date()`"
 bibliography: bib.bib
 biblio-title: REFERÊNCIAS
 link-citations: true
