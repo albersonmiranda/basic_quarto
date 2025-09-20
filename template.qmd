@@ -5,7 +5,7 @@ link-citations: true
 format:
   pdf:
     documentclass: abntex2
-    classoption: [12pt, oneside, a4paper, chapter=TITLE, section=TITLE, brazil]
+    classoption: [12pt, openright, oneside, a4paper, hyphens, chapter=TITLE, section=TITLE, english, french, spanish, brazil]
     latex-max-runs: 4
     cite-method: biblatex
     biblatexoptions:
@@ -18,4 +18,4 @@ format:
 
 # INTRODUÇÃO
 
-Exemplo de citação [@athanasopoulos_forecast_2023].
+Exemplo de citação [@athanasopoulos_forecast_2023]. Ou sem parênteses @spiliotis_hierarchical_2021. Até 3 autores é citado sem et al. [@wickramasuriya_optimal_2019].
