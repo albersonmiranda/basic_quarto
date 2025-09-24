@@ -1,8 +1,6 @@
 ---
 author: Alberson Miranda\thanks{Universidade Federal do Espírito Santo. alberson.miranda@edu.ufes.br.} \quad Fulano de Tal\thanks{Desenvolvedor R e Rust. \url{https://www.github.com/albersonmiranda}.}
 thanks: Desenvolvedor R e Rust.
-date: last-modified
-date-format: "DD-MM-YYYY"
 bibliography: bib.bib
 biblio-title: REFERÊNCIAS
 link-citations: true
@@ -13,7 +11,6 @@ format:
     classoption: [article, 12pt, openright, oneside, a4paper, hyphens, english, french, spanish, brazil]
     latex-max-runs: 4
     cite-method: biblatex
-    keep-tex: true
     biblatexoptions:
       - backend=biber
       - style=abnt
@@ -37,3 +34,15 @@ Exemplo de citação [@athanasopoulos_forecast_2023]. Ou sem parênteses @spilio
 # METODOLOGIA
 
 \lipsum[1-2]
+
+## Análise Exploratória
+
+\lipsum[3]
+
+## Notas sobre a estimação
+
+\lipsum[4-5]
+
+# CONCLUSÃO
+
+\lipsum[6]
